@@ -1,1 +1,14 @@
+<div class="bgtext">
 Hello
+</div>
+<div>
+<%=form_for @user do |f| %>
+  <div class="field">
+    <%= f.text_field :first%>
+    <%= f.text_field :last%>
+  </div> 
+  <div class="field">
+    Upload here
+  </div> 
+<% end %>
+</div>
